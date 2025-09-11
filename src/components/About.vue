@@ -10,3 +10,9 @@
 
 <script setup>
 </script>
+
+<script>
+export default {
+  name: "AboutSection"
+}
+</script>

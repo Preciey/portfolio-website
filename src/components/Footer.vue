@@ -5,4 +5,7 @@
 </template>
 
 <script setup>
+defineOptions({
+  name: 'AppFooter'
+});
 </script>

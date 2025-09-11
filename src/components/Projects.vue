@@ -19,4 +19,7 @@
 </template>
 
 <script setup>
+defineOptions({
+  name: 'PortfolioProjects'
+});
 </script>

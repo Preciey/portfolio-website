@@ -11,4 +11,7 @@
 </template>
 
 <script setup>
+defineOptions({
+  name: 'ContactSection'
+});
 </script>
