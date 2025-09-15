@@ -1,6 +1,6 @@
 <template>
-  <footer class="py-6 text-center text-gray-500 bg-white shadow-inner mt-12">
-    © 2025 Preciey. All rights reserved.
+  <footer class="p-6 bg-gray-100 text-center text-sm text-gray-500 static bottom-0 w-full">
+    © {{ new Date().getFullYear() }} Preciey. All rights reserved.
   </footer>
 </template>
 

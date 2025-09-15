@@ -1,10 +1,10 @@
 <template>
   <nav class="bg-gray-200 text-teal-800 shadow-md py-4 px-6 flex justify-between items-center">
-    <h1 class="text-xl font-bold">Preciey Ratambani</h1>
+    <h1 class="text-xl font-bold"><a href="/" class="hover:text-blue-600"> Preciey Ratambani</a></h1>
     <ul class="flex space-x-6">
-      <li><a href="/about" class="hover:text-blue-600">About</a></li>
-      <li><a href="#projects" class="hover:text-blue-600">Projects</a></li>
-      <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+      <RouterLink to="/" class="hover:underline">Home</RouterLink>
+      <RouterLink to="/about" class="hover:underline">About</RouterLink>
+      <RouterLink to="/projects" class="hover:underline">Projects</RouterLink>
     </ul>
   </nav>
 </template>
