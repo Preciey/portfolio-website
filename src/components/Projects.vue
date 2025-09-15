@@ -18,66 +18,63 @@
   <div class="w-full bg-gray-200">
     <section id="projects" class="py-16 px-6">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="bg-teal-300/20 p-6 rounded-lg shadow-md">
+        <div class="bg-teal-300/20 p-6 rounded-lg shadow-md flex flex-col justify-between gap-y-2 h-60">
           <h3 class="text-xl font-semibold mb-2">Portfolio Website</h3>
           <p class="text-gray-600 mb-4">
             A responsive personal portfolio built with Vue.js and Tailwind CSS, designed to showcase
             projects, skills, and experience in a clean, modern design.
           </p>
-          <div class="flex space-x-3 text-gray-700">
-            <VueIcon class="w-5 h-5" />
-            <TailwindIcon class="w-5 h-5" />
+          <div class="w-full">
+            <a
+              href="https://github.com/Preciey/portfolio-website"
+              target="_blank"
+              class=" px-4 py-2 bg-teal-700 text-white text-sm font-medium rounded hover:bg-teal-500 transition"
+            >
+              View Project
+            </a>
           </div>
-           <a
-            href="https://github.com/Preciey/portfolio-website"
-            target="_blank"
-            class="inline-block mt-2 px-4 py-2 bg-teal-700 text-white text-sm font-medium rounded hover:bg-teal-500 transition"
-          >
-            View Project
-          </a>
         </div>
 
-        <div class="bg-teal-300/20 p-6 rounded-lg shadow-md">
-            <h3 class="text-xl font-semibold mb-2">E-Commerce Jewelry Store</h3>
-            <p class="text-gray-600 mb-4">
-              An elegant e-commerce platform for a jewelry and lifestyle brand. Includes product
-              catalog, shopping cart, and secure checkout with a luxury shopping experience.
-            </p>
-            <div class="flex space-x-3 text-gray-700">
-              <LaravelIcon class="w-5 h-5" />
-              <VueIcon class="w-5 h-5" />
-              <TailwindIcon class="w-5 h-5" />
-            </div>
-             <a
-            href="https://mimiestore.co.za"
-            target="_blank"
-            class="inline-block mt-2 px-4 py-2 bg-teal-700 text-white text-sm font-medium rounded hover:bg-teal-500 transition"
-          >
-            View Project
-          </a>
+        <div class="bg-teal-300/20 p-6 rounded-lg shadow-md flex flex-col justify-between gap-y-2 h-60">
+          <h3 class="text-xl font-semibold mb-2">E-Commerce Jewelry Store</h3>
+          <p class="text-gray-600 mb-4">
+            An elegant e-commerce platform for a jewelry and lifestyle brand. Includes product
+            catalog, shopping cart, and secure checkout with a luxury shopping experience.
+          </p>
+          <!-- <div class="flex space-x-3 text-gray-700">
+            <LaravelIcon class="w-5 h-5" />
+            <VueIcon class="w-5 h-5" />
+            <TailwindIcon class="w-5 h-5" />
+          </div> -->
+          <div class="w-full">
+            <a
+              href="https://mimiestore.co.za"
+              target="_blank"
+              class="px-4 py-2 bg-teal-700 text-white text-sm font-medium rounded hover:bg-teal-500 transition"
+            >
+              View Project
+            </a>
+          </div>
         </div>
 
         <!-- Project 4 -->
-        <div class="bg-teal-300/20 p-6 rounded-lg shadow-md">
+        <div class="bg-teal-300/20 p-6 rounded-lg shadow-md flex flex-col justify-between gap-y-2 h-60">
           <h3 class="text-xl font-semibold mb-2">WordPress E-Commerce Store</h3>
           <p class="text-gray-600 mb-4">
             Designed and deployed a fully functional e-commerce store using WordPress. Customized
             the theme for a clean shopping experience, integrated payment gateways, and hosted it
             live for real customer access.
           </p>
-          <div class="flex space-x-3 text-gray-700 mb-4">
-            <GlobeIcon class="w-5 h-5" />
-            <WordpressIcon class="w-5 h-5" />
+          <div class="w-full">
+            <a
+              href="https://mimiestore.co.za"
+              target="_blank"
+              class=" px-4 py-2 bg-teal-700 text-white text-sm font-medium rounded hover:bg-teal-500 transition"
+            >
+              Visit Live Store
+            </a>
           </div>
-          <a
-            href="https://mimiestore.co.za"
-            target="_blank"
-            class="inline-block mt-2 px-4 py-2 bg-teal-700 text-white text-sm font-medium rounded hover:bg-teal-500 transition"
-          >
-            Visit Live Store
-          </a>
         </div>
-
       </div>
     </section>
   </div>
